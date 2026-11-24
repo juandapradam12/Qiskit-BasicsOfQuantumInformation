@@ -1,4 +1,4 @@
-# ⚛️ Basics of Quantum Information — Qiskit Notebooks
+# Basics of Quantum Information — Qiskit Notebooks
 
 > *"Anyone who is not shocked by quantum theory has not understood it."*
 > — Niels Bohr
@@ -7,7 +7,7 @@ This repository contains hands-on Jupyter Notebooks implementing key concepts fr
 
 ---
 
-## 📡 Quantum Teleportation
+## Quantum Teleportation
 
 ![Teleportation Protocol](Images/teleportation_protocol.png)
 
@@ -18,11 +18,11 @@ Quantum teleportation allows the **exact quantum state of a qubit to be transmit
 
 The qubit itself is never physically sent — only classical information travels, yet the quantum state is perfectly reconstructed on the other side. This is not science fiction; it is a proven consequence of quantum mechanics.
 
-📓 **Notebook:** [`Notebooks/Teleportation_Protocol.ipynb`](Notebooks/Teleportation_Protocol.ipynb)
+**Notebook:** [`Notebooks/Teleportation_Protocol.ipynb`](Notebooks/Teleportation_Protocol.ipynb)
 
 ---
 
-## 🔒 Superdense Coding
+## Superdense Coding
 
 ![Superdense Coding](Images/superdense_coding.png)
 
@@ -30,11 +30,11 @@ Superdense coding is the **complementary protocol** to teleportation. Where tele
 
 This protocol demonstrates a remarkable consequence of entanglement: it effectively **doubles the classical information-carrying capacity** of a quantum channel, something that is provably impossible without entanglement (by Holevo's theorem).
 
-📓 **Notebook:** [`Notebooks/Superdense_Coding.ipynb`](Notebooks/Superdense_Coding.ipynb)
+**Notebook:** [`Notebooks/Superdense_Coding.ipynb`](Notebooks/Superdense_Coding.ipynb)
 
 ---
 
-## 🎮 The CHSH Game
+## The CHSH Game
 
 ### Classical Bound
 
@@ -53,11 +53,11 @@ $$a \oplus b = x \wedge y$$
 
 This gap — known as a **Bell inequality violation** — is one of the most profound results in physics. It proves that quantum mechanics cannot be explained by any local hidden variable theory. The universe is, at its core, non-local.
 
-📓 **Notebook:** [`Notebooks/CHSH_Game.ipynb`](Notebooks/CHSH_Game.ipynb)
+**Notebook:** [`Notebooks/CHSH_Game.ipynb`](Notebooks/CHSH_Game.ipynb)
 
 ---
 
-## 🛠️ Setup
+## Setup
 
 ### Requirements
 
@@ -84,12 +84,12 @@ Then open any notebook in VS Code or JupyterLab and run the cells.
 
 ---
 
-## 📚 Course Reference
+## Course Reference
 
 These notebooks are based on the **[Basics of Quantum Information](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information)** course available on the IBM Quantum Platform — specifically the *Entanglement in Action* module.
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes, based on publicly available IBM Quantum learning material.
