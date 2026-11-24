@@ -69,7 +69,7 @@ This gap — known as a **Bell inequality violation** — is one of the most pro
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Qiskit-BasicsOfQuantumInformation.git
+git clone https://github.com/juandapradam12/Qiskit-BasicsOfQuantumInformation.git
 cd Qiskit-BasicsOfQuantumInformation
 
 # Create and activate virtual environment
